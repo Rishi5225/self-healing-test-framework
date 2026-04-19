@@ -11,4 +11,6 @@ def test_valid_login(driver):
     login.login("standard_user", "secret_sauce")
 
     # assert "inventory" in driver.current_url
-    assert "wrong_text" in driver.current_url
+    assert "inventory" in driver.current_url
+
+    
